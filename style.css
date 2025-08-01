@@ -1,1 +1,116 @@
-<link rel="stylesheet" href="style.css">
+/* Biomedical Style for Omni Biomed Solutions */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef7fb;
+  color: #1c1c1c;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  background-color: #007acc;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.title-text {
+  flex-grow: 1;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 36px; /* Increased size */
+  font-weight: bold;
+}
+
+.title-text p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+}
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 5px 0 10px 0;
+  font-size: 1.1em;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+section h2 {
+  color: #0077b6;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+a {
+  color: #0077b6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
